@@ -24,18 +24,18 @@ const HeadBar = () => {
     <div className="fixed top-0 left-0 w-full h-14 z-50 bg-black shadow">
       <div className="flex items-center h-full w-full">
         <div className="flex-1 flex items-center pl-4">
-          <Button className="ml-[135px] w-[45px] h-[22px] rounded-[11px] border-0 bg-[#303030] text-[#B5B5B5] text-[12px] leading-[24px] tracking-normal">beta</Button>
+          <Button className="xl:ml-[135px] w-[45px] h-[22px] rounded-[11px] border-0 bg-[#303030] text-[#B5B5B5] text-[12px] leading-[24px] tracking-normal">beta</Button>
         </div>
 
         <div className="flex-1 flex justify-center">
-          <div className="relative w-[540px]">
+          <div className="relative xl:w-[540px] w-[300px]">
             <span className="absolute inset-y-0 left-0 flex items-center pl-[14px] pointer-events-none">
               <Search className="h-[18px] w-[18px] text-muted-foreground"/>
             </span>
             <Input
               type="search"
               placeholder="Search..."
-              className="pl-[39px] pr-16 h-9 boder-[#404040] border rounded-[12px] w-[540px] text-[#B5B5B5]"
+              className="pl-[39px] pr-16 h-9 boder-[#404040] border rounded-[12px] text-[#B5B5B5]"
               onClick={() => setOpen(true)}
             />
             <span className="absolute inset-y-0 right-0 mr-[9px] flex items-center space-x-1 pointer-events-none">
