@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 const Dashboard = () => {
   return (
     <div>
-      <div className="flex items-center justify-center mt-14 w-[calc(100vw-240px)] h-16 bg-white border-b border-[#F5F5F5]">
+      <div className="flex items-center justify-center mt-14 lg:w-[calc(100vw-240px)] h-16 bg-white border-b border-[#F5F5F5]">
         <div className="mr-[11px] truncate max-w-[120px] text-sl text-semibold">Lorem ipsum</div>
         <div className="mr-[11px] text-sm text-[#B5B5B5]">(12)</div>
         <div className="mr-[615px] truncate max-w-[180px]  text-sm">Lorem ipsum dolar sit amet</div>

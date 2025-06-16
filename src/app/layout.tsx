@@ -4,11 +4,11 @@ import HeadBar from "@/components/headbar"
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
+    <div className="flex h-screen">
       <SidebarProvider>
         <HeadBar/>
         <AppSidebar />
-        <main>
+        <main className="flex-1 bg-gray-100 overflow-auto">
           {children}
         </main>
       </SidebarProvider>
