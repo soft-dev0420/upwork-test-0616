@@ -16,7 +16,7 @@ const Dashboard = () => {
         </Button>
       </div>
       <div className="flex items-center justify-center">
-        <div className="mt-[49px] h-[411px] w-[1080px] bg-[#D9D9D9] rounded-[12px]"></div>
+        <div className="mt-[49px] h-[213px] [@media(min-width:1440px)]:h-[421px] w-[1080px] bg-[#D9D9D9] rounded-[12px]"></div>
       </div>
     </div>
 
