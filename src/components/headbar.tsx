@@ -57,7 +57,7 @@ const HeadBar = () => {
             <DropdownMenuTrigger asChild>
               <Button variant="outline" className="w-9 h-9 rounded-full">KC</Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-56" align="start">
+            <DropdownMenuContent className="w-56 bg-white" align="start">
               <DropdownMenuLabel>My Account</DropdownMenuLabel>
               <DropdownMenuGroup>
                 <DropdownMenuItem>
